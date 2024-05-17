@@ -1,0 +1,10 @@
+C:\Users\Luke\source\repos\virginCalculatorInCsharp\bin\Debug\virginCalculatorInCsharp.exe.config
+C:\Users\Luke\source\repos\virginCalculatorInCsharp\bin\Debug\virginCalculatorInCsharp.exe
+C:\Users\Luke\source\repos\virginCalculatorInCsharp\bin\Debug\virginCalculatorInCsharp.pdb
+C:\Users\Luke\source\repos\virginCalculatorInCsharp\obj\Debug\virginCalculatorInCsharp.csproj.AssemblyReference.cache
+C:\Users\Luke\source\repos\virginCalculatorInCsharp\obj\Debug\virginCalculatorInCsharp.Form1.resources
+C:\Users\Luke\source\repos\virginCalculatorInCsharp\obj\Debug\virginCalculatorInCsharp.Properties.Resources.resources
+C:\Users\Luke\source\repos\virginCalculatorInCsharp\obj\Debug\virginCalculatorInCsharp.csproj.GenerateResource.cache
+C:\Users\Luke\source\repos\virginCalculatorInCsharp\obj\Debug\virginCalculatorInCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Luke\source\repos\virginCalculatorInCsharp\obj\Debug\virginCalculatorInCsharp.exe
+C:\Users\Luke\source\repos\virginCalculatorInCsharp\obj\Debug\virginCalculatorInCsharp.pdb
