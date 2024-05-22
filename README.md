@@ -4,4 +4,4 @@
 -[x] Working operators (+, /, *, -, %)
 -[x] Keyboard input matching to buttons
 -[x] working buttons
- 
+-[ ] auto scale
