@@ -51,7 +51,7 @@ namespace virginCalculatorInCsharp
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.calculatorDisplay = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -167,10 +167,13 @@ namespace virginCalculatorInCsharp
             // 
             // button11
             // 
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.Location = new System.Drawing.Point(12, 293);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(50, 50);
             this.button11.TabIndex = 23;
+            this.button11.Text = "←";
+            this.button11.Click += new System.EventHandler(this.button11_Click_1);
             // 
             // button12
             // 
@@ -179,7 +182,7 @@ namespace virginCalculatorInCsharp
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(50, 50);
             this.button12.TabIndex = 12;
-            this.button12.Text = ",";
+            this.button12.Text = ".";
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
@@ -256,7 +259,7 @@ namespace virginCalculatorInCsharp
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(50, 50);
             this.button19.TabIndex = 19;
-            this.button19.Text = "CE";
+            this.button19.Text = "M+";
             this.button19.UseVisualStyleBackColor = true;
             this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
@@ -271,22 +274,26 @@ namespace virginCalculatorInCsharp
             this.button20.UseVisualStyleBackColor = true;
             this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
-            // textBox1
+            // calculatorDisplay
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(11, 37);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(218, 26);
-            this.textBox1.TabIndex = 21;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.calculatorDisplay.BackColor = System.Drawing.SystemColors.MenuText;
+            this.calculatorDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calculatorDisplay.ForeColor = System.Drawing.Color.White;
+            this.calculatorDisplay.Location = new System.Drawing.Point(11, 37);
+            this.calculatorDisplay.Name = "calculatorDisplay";
+            this.calculatorDisplay.Size = new System.Drawing.Size(218, 26);
+            this.calculatorDisplay.TabIndex = 21;
+            this.calculatorDisplay.Text = "0";
+            this.calculatorDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox2.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBox2.Location = new System.Drawing.Point(123, 14);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(106, 20);
+            this.textBox2.Size = new System.Drawing.Size(106, 13);
             this.textBox2.TabIndex = 22;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -296,7 +303,7 @@ namespace virginCalculatorInCsharp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(239, 351);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.calculatorDisplay);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button19);
             this.Controls.Add(this.button18);
@@ -352,7 +359,7 @@ namespace virginCalculatorInCsharp
         private System.Windows.Forms.Button button18; // C
         private System.Windows.Forms.Button button19; // CE
         private System.Windows.Forms.Button button20; // % 
-        private System.Windows.Forms.TextBox textBox1; 
+        private System.Windows.Forms.TextBox calculatorDisplay; 
         private System.Windows.Forms.TextBox textBox2;
     }
 }
